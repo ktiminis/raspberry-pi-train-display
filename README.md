@@ -1,4 +1,4 @@
-# NS OLED Departure Board
+# NS Train Station Departures with Raspberry Pi and I2C Display
 
 A real-time train departure display for Dutch Railways (NS) stations using a Raspberry Pi and I2C OLED display. 
 
