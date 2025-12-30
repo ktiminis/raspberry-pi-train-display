@@ -36,7 +36,7 @@ pip3 install luma.oled requests Pillow
 You can get an NS API key from the [NS API Portal](https://apiportal.ns.nl). Here, I am using the reisinformatie API.
 You can fetch different stations via their station codes which you can find [here](https://www.ns.nl/stations).
 
-### 5. Run the script
+### 4. Run the script
 You can run the script directly using python3 on the Raspberry Pi. You must also replace the `API_KEY` and `STATION_CODE`.
 
 ## Troubleshooting
@@ -46,7 +46,7 @@ You may need to change the address of your I2C display. You can check your addre
 sudo i2cdetect -y 1
 ```
 
-## Automatically run it on startup
+## Automatically run script on startup
 ```bash
 sudo nano /etc/rc.local
 ```
